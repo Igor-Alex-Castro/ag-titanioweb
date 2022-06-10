@@ -4,10 +4,12 @@
 body{
   width: 100vw;
   overflow-x: hidden;
+  background: #241725;
 }
 main {
-  background: #241725;
   height: 964px;
+  width: 80vw;
+  margin: auto;
 }
 .img-logo{
   height: 104px;
@@ -194,10 +196,70 @@ color: #FFFFFF;
   margin-top: 12px;
   
 }
-footer {
-
+.footer {
   width: 100vw;
+  background: linear-gradient(180deg, rgba(25, 16, 25, 1) 0%, rgba(21, 13, 22, 1) 100%);
+  /*
+  background: linear-gradient(180deg, #606060 0%, #323232 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  */
+}
+.section-social-midia a{
+  text-decoration: none;
+  opacity: 0.5;
+}
+.section-social-midia a:hover{
+  text-decoration: none;
+  opacity: 1;
+}
+.seciton-footer{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 303px;
+  
+}
+.section-social-midia{
+  width: 30%;
+}
+.seciton-logo{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seciton-logo img{
+  opacity: 0.5;
+}
+.seciton-logo img:hover{
+  opacity: 1;
+}
 
-  background-color: #433B69;
+.section-contact{
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.section-contact .icon-wwp{
+  padding-right: 40px; 
+}
+.section-contact {
+  opacity: 0.5;
+}
+
+.section-contact:hover {
+  opacity: 1;
 }
