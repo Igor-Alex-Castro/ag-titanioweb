@@ -70,6 +70,17 @@ color: #FFFFFF;
   margin-top: 95px;
 }
 
+
+.section-rigth::before{
+  position: absolute;
+  display: block;
+  background-size:456.9px 454px;
+  content: url("./img/triangulos.png");
+  filter: drop-shadow(0px 0px 30px rgba(220, 119, 121, 0.4));
+  top:50px;
+  right: 0;
+}
+
 .section-rigth .form-contact{
   background: linear-gradient(180deg, #433B69 0%, #39395E 100%);
   mix-blend-mode: normal;
@@ -112,7 +123,9 @@ color: #FFFFFF;
   color: #FFFFFF;
   padding-top: 11px;
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+/* ---não fucionou----
+::-webkit-input-placeholder {
+  
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
@@ -122,7 +135,8 @@ color: #FFFFFF;
   color: #FFFFFF
   
 }
-::-moz-placeholder { /* Firefox 19+ */
+
+::-moz-placeholder { 
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
@@ -131,7 +145,7 @@ color: #FFFFFF;
   letter-spacing: -0.02em;
   color: #FFFFFF
 }
-:-ms-input-placeholder { /* IE 10+ */
+:-ms-input-placeholder {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
@@ -140,7 +154,7 @@ color: #FFFFFF;
   letter-spacing: -0.02em;
   color: #FFFFFF
 }
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder { 
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
@@ -149,24 +163,24 @@ color: #FFFFFF;
   letter-spacing: -0.02em;
   color: #FFFFFF
 }
-.form-contact .container-input:focus:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.form-contact .container-input:focus:focus::-webkit-input-placeholder { 
   background: none;
   outline: 0;
 }
 
-.form-contact .container-input:focus::-moz-placeholder { /* Firefox 19+ */
-  background: none;
+.form-contact .container-input:focus::-moz-placeholder { 
   outline: 0;
 }
 
-.form-contact .container-input:focus:-ms-input-placeholder { /* IE 10+ */
+.form-contact .container-input:focus:-ms-input-placeholder { 
   background: none;
   outline: 0;
 }
-.form-contact .container-input:focus:-moz-placeholder { /* Firefox 18- */
+.form-contact .container-input:focus:-moz-placeholder { 
   background: none;
   outline: 0;
 }
+*/
 .form-contact .container-input:focus {
   background: none;
   outline: 0;
@@ -195,6 +209,9 @@ color: #FFFFFF;
   color: #FFFFFF;
   margin-top: 12px;
   
+}
+.btn-contact:hover {
+  cursor: pointer;
 }
 .footer {
   width: 100vw;
@@ -259,7 +276,6 @@ color: #FFFFFF;
 .section-contact {
   opacity: 0.5;
 }
-
 .section-contact:hover {
   opacity: 1;
 }
