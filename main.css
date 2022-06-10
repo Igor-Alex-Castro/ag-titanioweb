@@ -18,12 +18,18 @@ main-section{
  width: 1366px;
   height: 1267px;
 }
-.title-webnar{
-  position: absolute;
-  width: 549px;
-  height: 103px;
+.container{
+  position: relative;
   left: calc(50% - 549px/2 - 284.5px);
   top: 232px;
+  width: 549px;
+  height: 103px;
+  background-color: aqua;
+}
+.title-webnar{
+  
+ position: absolute;
+  
   
   font-family: 'Exo';
   font-style: normal;
@@ -35,6 +41,15 @@ main-section{
   /* Básicas/branco */
   
   color: #FFFFFF;
+}
+.line {
+  position: absolute;
+  width: 549px;
+  height: 2px;
+  left: calc(50% - 549px/2 - 284.5px);
+  top: 327px;
+  
+  background: #ED9B27;
 }
 .description-webnar{
   position: absolute;
@@ -59,4 +74,19 @@ width: 550px;
 height: 310px;
 left: 123px;
 top: 529px;
+}
+.section-form{
+  position: relative;
+width: 455px;
+height: 515px;
+left: 788px;
+top: 329px;
+}
+.form-contact{
+  position: relative;
+  width: 455px;
+  height: 515px;
+  left: 788px;
+  top: 329px;
+  background-color: #ED9B27;
 }
