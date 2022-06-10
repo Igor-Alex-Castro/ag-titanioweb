@@ -18,19 +18,13 @@ main-section{
  width: 1366px;
   height: 1267px;
 }
-.container{
-  position: relative;
-  left: calc(50% - 549px/2 - 284.5px);
-  top: 232px;
-  width: 549px;
-  height: 103px;
-  background-color: aqua;
-}
+
 .title-webnar{
-  
  position: absolute;
-  
-  
+ left: calc(50% - 549px/2 - 284.5px);
+ top: 232px;
+ width: 549px;
+ height: 103px;
   font-family: 'Exo';
   font-style: normal;
   font-weight: 700;
@@ -83,10 +77,23 @@ left: 788px;
 top: 329px;
 }
 .form-contact{
-  position: relative;
-  width: 455px;
-  height: 515px;
-  left: 788px;
-  top: 329px;
-  background-color: #ED9B27;
+position: absolute;
+width: 455px;
+height: 515px;
+left: calc(50% - 455px/2 + 332.5px);
+bottom: 417px;
+background: linear-gradient(180deg, #433B69 0%, #39395E 100%);
+mix-blend-mode: normal;
+opacity: 0.95;
+border-radius: 10px;
+}
+
+footer {
+
+  position: absolute;
+  width: 1366px;
+  height: 303px;
+  left: 0px;
+  top: 964px;
+  background-color: #433B69;
 }
