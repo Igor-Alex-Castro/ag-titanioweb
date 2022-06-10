@@ -3,10 +3,11 @@
 
 body{
   width: 100vw;
-  height: 1267px;
+  overflow-x: hidden;
 }
 main {
   background: #241725;
+  height: 964px;
 }
 .img-logo{
   height: 104px;
@@ -190,7 +191,7 @@ color: #FFFFFF;
   line-height: 16px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 31px;
+  margin-top: 12px;
   
 }
 footer {
