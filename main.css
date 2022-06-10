@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shizuru&display=swap');
+body{
+  position: relative;
+  width: 1366px;
+  height: 1267px;
+  background: #241725;
+}
+.img-logo img{
+position: absolute;
+width: 265px;
+height: 104px;
+left: calc(50% - 265px/2 - 427.5px);
+top: 42px;
+}
+main-section{
+ /* display: flex;*/
+  position: absolute;
+ width: 1366px;
+  height: 1267px;
+}
+.title-webnar{
+  position: absolute;
+  width: 549px;
+  height: 103px;
+  left: calc(50% - 549px/2 - 284.5px);
+  top: 232px;
+  
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  
+  /* Básicas/branco */
+  
+  color: #FFFFFF;
+}
+.description-webnar{
+  position: absolute;
+width: 550px;
+height: 111px;
+left: calc(50% - 550px/2 - 285px);
+top: 355px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+/* Básicas/branco */
+
+color: #FFFFFF;
+}
+.img-frame-webnar {
+  position: absolute;
+width: 550px;
+height: 310px;
+left: 123px;
+top: 529px;
+}
