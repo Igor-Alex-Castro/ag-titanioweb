@@ -1,0 +1,117 @@
+@media(max-width: 1500px){
+  boby{
+   width: 100vw;
+   height: 625px !important;
+  }
+  main{
+    height: 625px;
+  }
+  .img-logo{
+    width: 80vw;
+    margin: auto;
+  }
+  .img-logo img {
+    position: static;
+  }
+ 
+  .main-section {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .section-left{
+    width: 40%;
+  }
+  .section-left .title-webnar {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .section-left .line {
+    background: #ED9B27;
+    height: 2px;
+    border: none;
+  }
+  
+  .section-left .description-webnar{
+    font-size: 15px;
+    color: #FFFFFF;
+  }
+  .section-left .img-frame-webnar {
+    width: 400px;
+    height: 37%;
+    margin-top: 30px;
+  }
+  .section-rigth{
+    width: 400px;
+   
+    margin-top: 123px;
+  }
+  .section-rigth::before{
+    left: 240px;
+    content: url("../img/triangulos-0.5.png");
+    top: -140px;
+}
+
+  .section-rigth .form-contact{
+    height: 380px;
+    display: flex;
+    margin: 0;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .form-contact label{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  
+  }
+  .form-contact .label-input {
+    height: 50px;
+    font-size: 12px;
+    line-height: 12px;
+    width: 80%;
+  }
+  .form-contact .label-name {
+    width: 80%;
+  }
+  .form-contact .container-input {
+    width: 100%;
+    padding: 0;
+  }
+  .btn-forms{
+    width: 100%;
+    padding-right: 0;
+  }
+  .btn-contact{
+    width: 80%;
+    border-radius: 50px;
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .footer {
+    width: 100vw;
+    height: 200px;
+    margin-bottom: 0;
+  }
+  .seciton-footer{
+    width: 80vw;
+    margin: auto;
+    height: 200px;
+  }
+  .seciton-footer .facebook, .instagram, .behance, .linkedin {
+    width: 20%;
+  }
+  .seciton-logo img{ 
+    width: 50%;
+  }
+  .icon-wwp {
+    width: 14%;
+  }
+  .section-contact .icon-wwp{
+    padding-right: 20px; 
+  }
+  .section-contact {
+    font-size: 20px;
+  }
+
+}
