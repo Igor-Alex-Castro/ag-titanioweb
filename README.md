@@ -7,7 +7,7 @@ um protótipo do figma já criado pelo design.
 ---
 - [x] Versão para tela de 1500px.
 ---
-- [x] Responsivo até chegar a 
+- [x] Responsivo até a 
 tela chegar ao tamanho de 1115px.
 ---
 - [ ] Versão responsiva para telas menores que 1115px.
