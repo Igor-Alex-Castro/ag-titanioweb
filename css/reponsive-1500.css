@@ -58,7 +58,7 @@
 }
 
   .section-rigth .form-contact{
-    height: 380px;
+    height: 406px;
     display: flex;
     margin: 0;
     padding-left: 0px;
@@ -90,7 +90,7 @@
     width: 80%;
     border-radius: 50px;
     font-size: 12px;
-    margin-top: 0px;
+    margin-top: 7px;
   }
   .footer {
     width: 100vw;
