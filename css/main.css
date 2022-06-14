@@ -10,7 +10,6 @@ body{
 }
 main {
   height: 964px;
-  width: 100vw;
   margin: auto;
 }
 .img-logo{
@@ -29,8 +28,7 @@ main {
  margin: auto;
  margin-top: 86px;
  display: flex;
- display: flex;
-  justify-content: space-between;
+ justify-content: space-between;
 }
 .section-left {
   width: 550px;
@@ -290,8 +288,4 @@ color: #FFFFFF;
 }
 .section-contact:hover {
   opacity: 1;
-}
-
-@media(max-width: 1115px){
-
 }

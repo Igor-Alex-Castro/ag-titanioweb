@@ -1,0 +1,77 @@
+@media(max-width: 885px){
+  main {
+    height: 1010px;
+  }
+  .img-logo{
+    height: 80px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+  .content-img{
+    width: 70%;
+  }
+  .img-logo img{
+    width:  136px;
+    height: 55px;
+  }
+  .main-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-left {
+    width: 70%;
+  }
+  .section-left .title-webnar {
+    font-size: 30px;
+
+  }
+  .section-left .description-webnar{
+    font-size: 15px;
+  }
+  .content-frame{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .section-left .img-frame-webnar {
+    width: 300px;
+  }
+  .section-rigth::before{
+    content: url("../img/triangulos-05.png");
+    left: 207px;
+    top: -127px;
+  }
+  .section-rigth{
+    width: 455px;;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-rigth .form-contact{
+    height: 337px;
+    width: 300px;
+  }
+  .footer{
+    height: 160px;
+  }
+  .seciton-footer {
+    height: 160px;
+  }
+  .section-contact{
+
+    font-size: 12px;
+  }
+  .seciton-footer{
+    width: 70vw;
+  }
+  .section-contact {
+    font-size: 10px;
+  }
+  .section-contact .icon-wwp{
+    padding-right: 10px; 
+  }
+}
