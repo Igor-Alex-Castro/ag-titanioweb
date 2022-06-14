@@ -1,11 +1,15 @@
 @media(max-width: 1500px){
- 
+  boby{
+    overflow-x: hidden;
+  }
+
   boby {
     width: 100vw;
    height: 625px !important;
   }
   main{
     height: 625px;
+
   }
   .img-logo{
     width: 80vw;
@@ -45,7 +49,7 @@
   .section-rigth{
     width: 400px;
    
-    margin-top: 110px;
+    margin-top: 123px;
   }
   .section-rigth::before{
     left: 240px;

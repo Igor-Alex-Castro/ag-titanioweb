@@ -1,4 +1,7 @@
 @media(max-width: 1126px){
+  boby{
+    overflow-x: hidden;
+  }
   .img-logo{
     height: 104px;
     padding-top: 42px;

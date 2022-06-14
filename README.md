@@ -12,7 +12,13 @@ tela chegar ao tamanho de 1026px(1115px).
 ---
 - [x] Versão responsiva para telas menores que 1115px.
 ---
-- [ ] Versão responsiva para telas menores que 885px.
+- [x] Versão responsiva para telas menores que 885px.
+---
+- [x] Versão responsiva para telas menores que 450px.
+---
+- [x] Versão responsiva para telas menores que 300px.
+---
+- [x] Resposivo até telas de tamanho min de 260px
 #### Relatório de SEO da página
 ![Relatório de SEO da página](./Relatorio/SEO.png)
 [**Link para o repositório.**](https://github.com/Igor-Alex-Castro/ag-titanioweb)
