@@ -1,0 +1,59 @@
+@media(max-width: 1126px){
+  .img-logo{
+    height: 104px;
+    padding-top: 42px;
+  }
+  .img-logo img{
+    width: 180px;
+    height: 77px;
+    left: calc(50% - 265px/2 - 427.5px);
+  }
+  .section-left .title-webnar{
+    font-size: 30px;
+  }
+  .section-left .line {
+    height: 2px;
+  }
+  .section-left .description-webnar{
+    font-size: 12px;
+  }
+  .section-left .img-frame-webnar {
+    width: 320px;
+    height: 33%;
+  }
+  .section-rigth::before{
+    content: url("../img/triangulos-05.png");
+    left: 138px;
+    top: -151px;
+  }
+  .section-rigth {
+    margin-top: 101px;
+  }
+  .section-rigth .form-contact{
+    height: 338px;
+    width: 300px;
+    
+  }
+  
+  .form-contact .label-input {
+    height: 20px;
+    font-size: 10px;
+    line-height: 10px;
+    width: 80%;
+    margin-bottom: 35px;;
+  }
+  .form-contact .label-name {
+    padding-top: 30px;
+  }
+  .btn-forms{
+    width: 400px;
+    padding-right: 0;
+  }
+  .btn-contact {
+    width: 60%;
+    border-radius: 40px;
+    font-size: 12px;
+    margin-top: 15px;
+    height: 40px;
+  }
+}
